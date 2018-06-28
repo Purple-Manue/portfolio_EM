@@ -1,0 +1,24 @@
+@media (min-width:320px) {
+
+  #xp{
+    background-image: linear-gradient(to bottom, rgba(95,88,94,0.2), rgba(145,113,135,0.8));
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .purp{
+      color: #af85c1;
+  }
+
+}
+
+
+@media (min-width:1281px) {
+
+  .purp{
+      color: #af85c1;
+  }
+
+
+
+}

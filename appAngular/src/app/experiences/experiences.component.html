@@ -1,0 +1,44 @@
+<section id="xp">
+  <div class="text-leftcontainer translate typewriter">
+      <app-retour></app-retour>
+      <h2 class="text-center">EX<span class="purp">P</span>ÉRIENCES<i class="fa fa-briefcase fa-spin fa-1x"></i></h2>
+  </div>
+   <div class="container">
+         <div class="row">
+            <table class="table">
+               <thead>
+                <tr>
+                  <th class="text-center">User ID</th>
+                  <th class="text-center">Date</th>
+                  <th class="text-center">Status</th>
+                  <th class="text-center">Name</th>
+                  <th class="text-center">Description</th>
+                </tr>
+               </thead>
+                 <tbody>
+                   <tr *ngFor="let post of _postsArray">
+                    <!-- <td class="text-center" style="width: 15px">{{post.userId}}</td> -->
+                    <td class="text-center" style="width: 15px">{{post._id}}</td>
+                    <td class="text-center" style="width: 15px">{{post.date}}</td>
+                    <td class="text-center" style="width: 15px">{{post["status"]}}</td>
+                    <td class="text-center" style="width: 15px">{{post.name}}</td>
+                    <td class="text-center" style="width: 15px">{{post.description[0]}}</td>
+
+                    <!-- Si je rajoute des descriptions dans le post description :
+                    <td class="text-center" style="width: 15px">{{post.description[0]}}</td> -->
+
+
+                    <!-- <td *ngFor="let des of post.description">
+                        <p>{{des[(2.0)]}}</p>
+                        <p>{{des["Education canine"]}}</p>
+                        <p>{{des["Toilettage canin"]}}</p>
+                        <p>{{des["Gestion administrative"]}}</p>
+                     </td> -->
+
+                    <!-- <td class="text-center">{{post.body}}</td> -->
+                   </tr>
+                 </tbody>
+            </table>
+         </div>
+   </div>
+</section>

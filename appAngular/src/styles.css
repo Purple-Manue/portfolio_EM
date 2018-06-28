@@ -1,0 +1,175 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    background-color : #F2F2F2;
+    background-image: linear-gradient(to bottom, rgba(95,88,94,0.2), rgba(145,113,135,0.8));
+}
+
+/* Buzz */
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.13s;
+  animation-duration: 0.13s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 3.3s steps(40, end),
+    blink-caret .73s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.hide{
+    visibility: hidden;
+    display: none;
+}
+
+a{
+    color : black;
+    text-decoration: none;
+}
+a:hover{
+   color: black;
+   text-decoration: none;
+}
+
+.float{
+    float: right;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+h6{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+}
+
+p, li{
+    font-family: 'Dosis', sans-serif;
+}
+
+span{
+    font-family: 'Indie Flower', cursive;
+}
+
+.purp{
+    color: #af85c1;
+}
+
+.bgResume{
+    background-image: url(assets/img/doigttouche.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+}
+.bgResume:hover{
+    transition: 3s;
+    color: #af85c1;
+    background-size: 120%;
+}
+
+.bgProfile{
+    background-image: url(assets/img/yeux.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color : white;
+}
+.bgProfile:hover{
+    transition: 3s;
+    color: #af85c1;
+    background-size: 120%;
+}
+
+.bgProjets{
+    background-image: url(assets/img/pcviolet.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    color : white;
+}
+.bgProjets:hover{
+    transition: 3s;
+    color: #af85c1;
+    background-size: 120%;
+}
+
+.bgContact{
+    background-image: url(assets/img/img10.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color : white;
+}
+.bgContact:hover{
+    transition: 3s;
+    color: #af85c1;
+    background-size: 120%;
+}
+
+
+.blancFooter{
+    color:black;
+    font-size:10px;
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .hide{
+        visibility: visible;
+        display: block;
+    }
+}

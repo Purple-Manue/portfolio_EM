@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    max-height: 100vh;
+    outline: 0px;
+}
+.container-fluid {
+    padding: 0;
+    height: 100vh;
+}
+
+.col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left:0px;
+    margin-right:0px;
+    height: 100vh;
+}
+
+#page {
+    width: 100%;
+}
+
+#displayComponent {
+    width: 100%;
+    height: 50vh;
+    overflow:auto;
+}
+
+#moitBas {
+    height: 50vh;
+    background-color: black;
+}
+
+.navigation {
+    width: 100%;
+    height: 25%;
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+  #displayComponent {
+      width: 50%;
+      height: 100%;
+  }
+
+  #moitBas {
+      height: 100vh;
+  }
+
+  .purp{
+      color: #af85c1;
+  }
+
+}

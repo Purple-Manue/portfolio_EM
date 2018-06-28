@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <div class="row" id="page">
+        <div class="col-12 col-md-6" id="displayComponent">
+            <router-outlet></router-outlet>
+        </div>
+        <div id="moitBas" class="col-12 col-md-6">
+            <a [routerLink]="['/profil']"><div class="navigation bgProfile">
+              <!-- <img src="assets/images/ecrou.jpeg"> -->
+                <app-nav-profil></app-nav-profil>
+            </div></a>
+            <a [routerLink]="['/competences']"><div class="navigation bgResume">
+                <app-nav-competences></app-nav-competences>
+            </div></a>
+            <a [routerLink]="['/experiences']"><div class="navigation bgProjets">
+                <app-nav-experiences></app-nav-experiences>
+            </div></a>
+            <a [routerLink]="['/footer']"><div class="navigation bgContact">
+            	<app-nav-footer></app-nav-footer>
+            </div></a>
+        </div>
+    </div>
+</div>

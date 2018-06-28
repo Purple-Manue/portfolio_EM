@@ -1,0 +1,26 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .spacer{
+        margin: 20px;
+    }
+
+    body{
+        background-color : #F2F2F2;
+    }
+
+    input, textarea{
+        background: transparent;
+        resize: none;
+    }
+
+    .jaune{
+        color: #FF8F19;
+    }
+
+    .form-control{
+         border:1px solid #FF8F19;
+    }
+
+    .btn{
+        border-color:#0084B2;
+    }
+ }

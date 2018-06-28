@@ -1,0 +1,30 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+
+    .thumbnail{
+        padding-bottom: 50px;
+    }
+
+    .titre{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom : 1px solid #FF8F19;
+    }
+
+    .jaune{
+        color: #FF8F19;
+    }
+
+    .bleu{
+        border-color : #0084B2;
+    }
+
+    .backJaune{
+        background-color: #FF8F19;
+        color : white;
+    }
+
+    .modalText{
+        padding:10px;
+    }
+}

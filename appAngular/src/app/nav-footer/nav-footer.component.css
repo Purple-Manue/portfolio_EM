@@ -1,0 +1,27 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .purp{
+        color: #af85c1;
+    }
+
+    .size {
+        font-size: 17px;
+        text-decoration: none;
+        margin-top: -10px;
+    }
+
+    .navDecalage{
+        margin-left: 15%;
+    }
+
+    .navTitre{
+        font-size: 30px;
+        padding-top: 5%;
+        margin-top: -18px;
+    }
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .navTitre{
+        padding-top: 7%;
+    }
+}

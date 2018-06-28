@@ -1,0 +1,57 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+
+    #about{
+      background-image: linear-gradient(to bottom, rgba(95,88,94,0.2), rgba(145,113,135,0.8));
+      padding-top: 1px;
+      padding-bottom: 1px;
+    }
+
+    .purp{
+        color: #af85c1;
+    }
+
+    .txtLabel{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: purple;
+    }
+
+
+    .avatar{
+        border: 1px solid #af85c1;
+        border-radius: 8px;
+        height: 300px;
+        width: auto;
+        image: circle;
+    }
+
+    .fond{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+  #about{
+    background-image: linear-gradient(to bottom, rgba(95,88,94,0.2), rgba(145,113,135,0.8));
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+    .purp{
+        color: #af85c1;
+    }
+
+    .spacer{
+        margin:100px;
+    }
+
+    .bottom{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,9 @@
+.mario {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #bdc3c7;
+
+    background: radial-gradient(farthest-side ellipse at center, black, #af85c1, black 90px);
+    /* background-image: radial-gradient(farthest-corner circle at center); */
+}
